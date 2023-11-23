@@ -1,0 +1,110 @@
+body {
+  
+    background-image: linear-gradient(173.1deg, rgba(139, 96, 146, 0.94) 10.2%, rgb(102, 128, 167) 77.3%);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.principal {
+    width: 40%;
+    height: 90vh;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    margin-left: 30%;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border-radius: 15px;
+}
+
+.img1 {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.img-principal {
+    width: 200px;
+    height: 170px;
+    border-radius: 50%;
+    margin-top: 3vh;
+}
+
+h1 {
+    text-align: center;
+    color: rgb(238, 226, 205);
+}
+
+p {
+    text-align: center;
+    color: rgb(230, 223, 211);
+}
+
+.links {
+
+text-align: center;
+
+}
+
+
+
+
+
+
+
+
+
+
+.link {
+    width: 80%;
+    cursor: pointer;
+    font-size: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 2vh;
+    background-color: rgba(0, 0, 255, 0);
+    border-radius: 15px;
+    border: 2px solid white;
+    color: white;
+    text-align: center;
+    transition: all 0.3s ease;
+}
+
+.link:hover {
+    background-color: rgba(20, 204, 180, 0.788) ;
+    transform: scale(1.05);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.link a {
+    color: white;
+    text-decoration: none;
+}
+
+
+
+@media screen and (max-width: 768px) {
+   
+   
+    .link {
+        width: 90%;
+        font-size: 16px;
+        margin-top: 10px; 
+    }
+
+    .principal {
+        width: 90%; 
+        margin: 5vh auto; 
+    }
+
+    .link + .link {
+        margin-top: 15px; 
+    }
+}
+
+
+
+
+
